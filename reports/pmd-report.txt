@@ -1,0 +1,108 @@
+src/main/java/Principal.java:2:	CommentRequired: Header comments are required
+src/main/java/Principal.java:2:	CommentRequired: Header comments are required
+src/main/java/Principal.java:2:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/main/java/Principal.java:2:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/main/java/Principal.java:2:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/Principal.java:2:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/Principal.java:4:	CommentRequired: Public method and constructor comments are required
+src/main/java/Principal.java:4:	CommentRequired: Public method and constructor comments are required
+src/main/java/Principal.java:4:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/Principal.java:4:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/Suma.java:2:	CommentRequired: Header comments are required
+src/main/java/Suma.java:2:	CommentRequired: Header comments are required
+src/main/java/Suma.java:2:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/main/java/Suma.java:2:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/main/java/Suma.java:2:	ShortClassName: Avoid short class names like Suma
+src/main/java/Suma.java:2:	ShortClassName: Avoid short class names like Suma
+src/main/java/Suma.java:3:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/Suma.java:3:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/Suma.java:3:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the a field if you want a default access modifier
+src/main/java/Suma.java:3:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the a field if you want a default access modifier
+src/main/java/Suma.java:3:	CommentRequired: Field comments are required
+src/main/java/Suma.java:3:	CommentRequired: Field comments are required
+src/main/java/Suma.java:3:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/Suma.java:3:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/Suma.java:3:	ShortVariable: Avoid variables with short names like a
+src/main/java/Suma.java:3:	ShortVariable: Avoid variables with short names like a
+src/main/java/Suma.java:4:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/Suma.java:4:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/Suma.java:4:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the b field if you want a default access modifier
+src/main/java/Suma.java:4:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the b field if you want a default access modifier
+src/main/java/Suma.java:4:	CommentRequired: Field comments are required
+src/main/java/Suma.java:4:	CommentRequired: Field comments are required
+src/main/java/Suma.java:4:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/Suma.java:4:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/Suma.java:4:	ShortVariable: Avoid variables with short names like b
+src/main/java/Suma.java:4:	ShortVariable: Avoid variables with short names like b
+src/main/java/Suma.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/Suma.java:8:	CommentRequired: Public method and constructor comments are required
+src/main/java/Suma.java:8:	MethodArgumentCouldBeFinal: Parameter 'a2' is not assigned and could be declared final
+src/main/java/Suma.java:8:	MethodArgumentCouldBeFinal: Parameter 'a2' is not assigned and could be declared final
+src/main/java/Suma.java:8:	MethodArgumentCouldBeFinal: Parameter 'b2' is not assigned and could be declared final
+src/main/java/Suma.java:8:	MethodArgumentCouldBeFinal: Parameter 'b2' is not assigned and could be declared final
+src/main/java/Suma.java:8:	ShortVariable: Avoid variables with short names like a2
+src/main/java/Suma.java:8:	ShortVariable: Avoid variables with short names like a2
+src/main/java/Suma.java:8:	ShortVariable: Avoid variables with short names like b2
+src/main/java/Suma.java:8:	ShortVariable: Avoid variables with short names like b2
+src/main/java/Suma.java:13:	CommentRequired: Public method and constructor comments are required
+src/main/java/Suma.java:13:	CommentRequired: Public method and constructor comments are required
+src/main/java/Suma.java:17:	CommentRequired: Public method and constructor comments are required
+src/main/java/Suma.java:17:	CommentRequired: Public method and constructor comments are required
+src/main/java/Suma.java:18:	AddEmptyString: Do not add empty strings
+src/main/java/Suma.java:18:	AddEmptyString: Do not add empty strings
+src/test/java/SumaTest.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/SumaTest.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/SumaTest.java:6:	CommentRequired: Header comments are required
+src/test/java/SumaTest.java:6:	CommentRequired: Header comments are required
+src/test/java/SumaTest.java:6:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/test/java/SumaTest.java:6:	NoPackage: All classes, interfaces, enums and annotations must belong to a named package
+src/test/java/SumaTest.java:9:	CommentRequired: Public method and constructor comments are required
+src/test/java/SumaTest.java:9:	CommentRequired: Public method and constructor comments are required
+src/test/java/SumaTest.java:9:	MethodNamingConventions: The JUnit 4 test method name 'prima_c1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/SumaTest.java:9:	MethodNamingConventions: The JUnit 4 test method name 'prima_c1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/SumaTest.java:10:	LocalVariableCouldBeFinal: Local variable 'p1' could be declared final
+src/test/java/SumaTest.java:10:	LocalVariableCouldBeFinal: Local variable 'p1' could be declared final
+src/test/java/SumaTest.java:10:	ShortVariable: Avoid variables with short names like p1
+src/test/java/SumaTest.java:10:	ShortVariable: Avoid variables with short names like p1
+src/test/java/SumaTest.java:11:	LocalVariableCouldBeFinal: Local variable 'valor_esperado' could be declared final
+src/test/java/SumaTest.java:11:	LocalVariableCouldBeFinal: Local variable 'valor_esperado' could be declared final
+src/test/java/SumaTest.java:11:	LocalVariableNamingConventions: The local variable name 'valor_esperado' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/SumaTest.java:11:	LocalVariableNamingConventions: The local variable name 'valor_esperado' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/SumaTest.java:11:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'valor_esperado' is not final.
+src/test/java/SumaTest.java:11:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'valor_esperado' is not final.
+src/test/java/SumaTest.java:12:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/test/java/SumaTest.java:12:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/test/java/SumaTest.java:13:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/SumaTest.java:13:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/SumaTest.java:18:	CommentRequired: Public method and constructor comments are required
+src/test/java/SumaTest.java:18:	CommentRequired: Public method and constructor comments are required
+src/test/java/SumaTest.java:18:	MethodNamingConventions: The JUnit 4 test method name 'prima_c2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/SumaTest.java:18:	MethodNamingConventions: The JUnit 4 test method name 'prima_c2' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/SumaTest.java:19:	LocalVariableCouldBeFinal: Local variable 'p1' could be declared final
+src/test/java/SumaTest.java:19:	LocalVariableCouldBeFinal: Local variable 'p1' could be declared final
+src/test/java/SumaTest.java:19:	ShortVariable: Avoid variables with short names like p1
+src/test/java/SumaTest.java:19:	ShortVariable: Avoid variables with short names like p1
+src/test/java/SumaTest.java:20:	LocalVariableCouldBeFinal: Local variable 'valor_esperado' could be declared final
+src/test/java/SumaTest.java:20:	LocalVariableCouldBeFinal: Local variable 'valor_esperado' could be declared final
+src/test/java/SumaTest.java:20:	LocalVariableNamingConventions: The local variable name 'valor_esperado' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/SumaTest.java:20:	LocalVariableNamingConventions: The local variable name 'valor_esperado' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/SumaTest.java:20:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'valor_esperado' is not final.
+src/test/java/SumaTest.java:20:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'valor_esperado' is not final.
+src/test/java/SumaTest.java:21:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/test/java/SumaTest.java:21:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/test/java/SumaTest.java:22:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/SumaTest.java:22:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/SumaTest.java:27:	CommentRequired: Public method and constructor comments are required
+src/test/java/SumaTest.java:27:	CommentRequired: Public method and constructor comments are required
+src/test/java/SumaTest.java:27:	MethodNamingConventions: The JUnit 4 test method name 'prima_c3' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/SumaTest.java:27:	MethodNamingConventions: The JUnit 4 test method name 'prima_c3' doesn't match '[a-z][a-zA-Z0-9]*'
+src/test/java/SumaTest.java:28:	LocalVariableCouldBeFinal: Local variable 'p1' could be declared final
+src/test/java/SumaTest.java:28:	LocalVariableCouldBeFinal: Local variable 'p1' could be declared final
+src/test/java/SumaTest.java:28:	ShortVariable: Avoid variables with short names like p1
+src/test/java/SumaTest.java:28:	ShortVariable: Avoid variables with short names like p1
+src/test/java/SumaTest.java:29:	LocalVariableCouldBeFinal: Local variable 'valorEsperado' could be declared final
+src/test/java/SumaTest.java:29:	LocalVariableCouldBeFinal: Local variable 'valorEsperado' could be declared final
+src/test/java/SumaTest.java:30:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/test/java/SumaTest.java:30:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/test/java/SumaTest.java:31:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/SumaTest.java:31:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
