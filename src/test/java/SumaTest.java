@@ -31,4 +31,13 @@ public class SumaTest {
 
 			
 	}
+	@Test
+	public void primaC4() {
+		Suma p1 = new Suma(-5,10);
+		int valorEsperado  = 5;
+		int resultado = p1.calcular();
+		assertEquals(valorEsperado, resultado,0) ;
+
+			
+	}
 }
