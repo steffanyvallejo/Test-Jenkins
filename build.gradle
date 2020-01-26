@@ -31,8 +31,17 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     //mockito
     testImplementation 'org.mockito:mockito-core:2.7.22'
+    
+    //cucumber
+    testCompile 'io.cucumber:cucumber-java:4.7.4'
+    testCompile 'io.cucumber:cucumber-junit:4.7.4'
 }
-//ckeckstyle
+
+configurations {
+    cucumberRuntime {
+        extendsFrom testRuntime
+    }
+}
 checkstyle {
     configFile file('config/Configuration.xml')
     toolVersion '8.26'             // set Checkstyle version here
@@ -111,6 +120,17 @@ tasks.withType(Checkstyle) {
         html.enabled = true
          html {
             destination file("$reports/checkstyle/report-nuevo.html")
+        }
+    }
+}
+
+task cucumber() {
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--plugin', 'pretty', '--glue', 'cucumber', 'src/test/resources','--monochrome']
         }
     }
 }

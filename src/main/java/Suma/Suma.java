@@ -1,4 +1,4 @@
-
+package Suma;
 public class Suma {
 	int a;
 	int b;
@@ -9,7 +9,7 @@ public class Suma {
 		this.a = a2;
 		this.b = b2;
 	}
-
+	
 	public int calcular() {
 		return a+b;
 	}
